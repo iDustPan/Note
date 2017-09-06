@@ -1,5 +1,5 @@
 
-#Horrizontal CollectionView with `pageEnabled==YES` for setting lineSpacing 
+# Horrizontal CollectionView with `pageEnabled==YES` for setting lineSpacing 
 
 ```
 
