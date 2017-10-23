@@ -38,7 +38,7 @@ module.exports = {
 
 input follow command in terminal at project path:
 
-`npm install --save-dev react react-dom`
+`npm install --save react react-dom`
 
 then add babel dependencies:
 
