@@ -1,7 +1,7 @@
 
-## A Project with Webpack and React
+## A Project with webpack and React
 
-### Webpack step
+### webpack step
 
 `npm init -y`
 
@@ -18,7 +18,7 @@ then install webpack use follow command:
 
 `npm install --save-dev webpack webpack-dev-server`
 
-for more details, can read this document: [Webpack document](https://webpack.js.org/concepts/)
+for more details, can read this document: [webpack document](https://webpack.js.org/concepts/)
 
 touch file `webpack.config.js` and append follow config.
 
