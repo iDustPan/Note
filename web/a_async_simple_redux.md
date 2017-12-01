@@ -56,15 +56,20 @@ store.subscribe(() => {
         document.querySelector('.container').innerHTML = state.error.messages[0];
     }
 });
+```
 
 ### use with `redux-promise-middleware`
+
+```
 store.dispatch({
     type: "FETCH_COMMENTS",
      payload: axios.get("https://baleen-dev.bybieyang.com/articles/article_cover_test/comments?f=0&t=20")
  });
+```
 
- ### use with 'redux-thunk'
-
+ ### use with `redux-thunk`
+ 
+```
 // store.dispatch((dispatch) => {
 //     dispatch({type: "FETCH_COMMENTS_PENDING"});
 //     axios.get("https://baleen-dev.bybieyang.com/articles/article_cover/comments?f=0&t=20").then((response) => {
