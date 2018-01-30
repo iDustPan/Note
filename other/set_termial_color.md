@@ -3,7 +3,7 @@
 
 ### 修改配置文件
 
-`cd ~` 
+`cd ~`
 
 `ls -lah` 确认是否有.bash_profile这个隐藏文件
 
