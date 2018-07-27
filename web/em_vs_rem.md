@@ -4,7 +4,7 @@
 ## em
 
 - 对于标签的font-size来说，1em等于父标签的font-size;
-- 对于标签的长度selector来说，1em等于自身的font-size；
+- 对于标签的尺寸(width, height)来说，1em等于自身的font-size；
 
 ```
 <html>
@@ -36,7 +36,7 @@ p {
 
 ```
 h1 {
-  font-size: 2rem;
+  font-size: 2rem; /* 32px */
   margin-bottom: 1rem; /* 1rem = 16px */
 }
 
