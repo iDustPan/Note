@@ -13,11 +13,11 @@
 
 假设现在的源是：https://ruby.taobao.org/
 
-`gem sources --remove https://ruby.taobao.org/`
+`sudo gem sources --remove https://ruby.taobao.org/`
 
 ### 添加新源
 
-`gem source -a http://rubygems-china.oss.aliyuncs.com`
+`sudo gem source -a http://rubygems-china.oss.aliyuncs.com`
 
 ### 安装或者升级cocoapods
 
